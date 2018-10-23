@@ -38,8 +38,8 @@ io.on('connection', (socket) => {
 			from: message.from,
 			text: message.text,
 			createAt: new Date().getTime()
-		});*/
-
+		});
+*/
 	});
 
 	socket.on('disconnect', () => {
